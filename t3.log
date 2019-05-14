@@ -1,0 +1,37 @@
+====换行了
+2换行了
+2换行了
+2换行了
+123213
+123
+213
+
+213
+21
+3
+21
+3
+21
+3
+
+------------
+----------dsasadsdadssadsad123123qdasdasdasupdate  t_password set password = 'cf79ae6addba60ad018347359bd144d2' 
+where  user_id =(select id from  t_user   where name = '用户名')  and  status  =1
+
+'cf79ae6addba60ad018347359bd144d2' =8888
+Status （ 1, 启用 ，0 禁用）
+update  t_password set password = 'cf79ae6addba60ad018347359bd144d2' 
+where  user_id =(select id from  t_user   where name = '用户名')  and  status  =1
+
+'cf79ae6addba60ad018347359bd144d2' =8888
+Status （ 1, 启用 ，0 禁用）
+update  t_password set password = 'cf79ae6addba60ad018347359bd144d2' 
+where  user_id =(select id from  t_user   where name = '用户名')  and  status  =1
+
+'cf79ae6addba60ad018347359bd144d2' =8888
+Status （ 1, 启用 ，0 禁用）
+update t_actual_outbound_detail set POSTE_STATUS= 4 where plan_out_number ='O00201902140000152' 
+
+把过账状态改成过账失败，然后在loms系统里，手工点‘过账’即可。
+select * from t_material_basic where material_code='MD_S30';
+UPDATE t_material_basic set  packing_specification =240 where material_code in ('MD_S54','MD_S52','MD_S53')
